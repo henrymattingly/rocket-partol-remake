@@ -5,6 +5,7 @@ class Play extends Phaser.Scene{
 
     preload() {
         this.load.image('starfield','assets/starfield.png');
+        //this.load.inage('rocket','assets/rocket.png');
     }
 
     create(){
@@ -15,6 +16,14 @@ class Play extends Phaser.Scene{
             game.config.width, 
             borderUISize*2,
             0X00FF00,).setOrigin(0,0);
+
+         /*   
+        this.P1Rocket = new Rocket(
+            this, 
+            game.confi.width/2,
+            game.config.height - borderUISize - boarderPadding,
+            'rocket',)
+            */
 
         //white borders
         this.add.rectangle(0, 0, game.config.width, borderUISize, 0xFFFFFF).setOrigin(0 ,0);
