@@ -10,7 +10,7 @@ class Rocket extends Phaser.GameObjects.Sprite {
     this.isFiring = false;
 
     //move speed
-    this.moveSpeed = 2;
+    this.moveSpeed = 1.75;
   }
 
   update()
