@@ -12,5 +12,3 @@ let borderPadding = borderUISize /3;
 
 // reserve keyboard vars
 let keyF, keyR, keyLEFT, keyRIGHT;
-
-//final comment and commit to publish on github here
