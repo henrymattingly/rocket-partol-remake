@@ -30,6 +30,7 @@ changes made:
 -new scrolling background (5)
 -new sprite for spaceship enemies (10)
 -new weapon (player 1's weapon) (20)
+-added new parallax scrolling background (10)
 
 
 */
